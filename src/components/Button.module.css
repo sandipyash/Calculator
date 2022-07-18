@@ -1,0 +1,23 @@
+.btns{
+    height: 90px;
+    width:90px;
+    font-size:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: aliceblue;
+    user-select: none;
+    box-shadow:10px 10px 30px #a9cfbd,
+    -10px -10px 30px #92a19a;
+}
+
+.btns:hover{
+    background-color:#0c73c2;
+    color:#e0f213;
+}
+
+.calBtns{
+    width:180px;
+    background-color:bisque;
+}

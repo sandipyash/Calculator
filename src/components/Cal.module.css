@@ -63,18 +63,19 @@
     border-radius: 30px;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:600px){
    
     .cal{
-        height: 100vh;
+        height: 80vh;
         width:100vw;
         display:flex;
         justify-content: center;
         align-items: center;
+       
     }
 
     .inner{
-        height: 640px;
+        height: 400px;
         width:425px;
         border-radius: 30px;
         background-color:#03e3fc;

@@ -63,3 +63,22 @@
     border-radius: 30px;
 }
 
+@media screen and (max-width:768px){
+   
+    .cal{
+        height: 100vh;
+        width:100vw;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inner{
+        height: 640px;
+        width:425px;
+        border-radius: 30px;
+        background-color:#03e3fc;
+        /* box-shadow: 20px 20px 60px #b3dee3,
+        -20px -20px 60px #a4bdbf; */
+    }
+}
